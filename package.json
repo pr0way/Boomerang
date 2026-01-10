@@ -80,6 +80,44 @@
             "xl": {
                 "width": 2000
             }
+        },
+        "custom": {
+            "navigation_layout": {
+                "type": "select",
+                "options": [
+                    "Standalone",
+                    "Hamburger"
+                ],
+                "default": "Standalone"
+            },
+            "white_publication_logo": {
+                "type": "image"
+            },
+            "show_featured_posts": {
+                "type": "boolean",
+                "group": "post",
+                "default": false
+            },
+            "post_feed_style": {
+                "type": "select",
+                "options": ["List","Grid"],
+                "default": "List",
+                "group": "homepage"
+            },
+            "show_thumbnails_on_post_feed": {
+                "type": "boolean",
+                "default": true,
+                "description": "Toggles thumbnails of the post cards when the post feed style is List",
+                "group": "homepage",
+                "visibility": "post_feed_style:List"
+            },
+            "show_thumbnails_as_background": {
+                "type": "boolean",
+                "default": true,
+                "description": "Use thumbnails of the post cards as background for tile when the post feed style is Grid",
+                "group": "homepage",
+                "visibility": "post_feed_style:Grid"
+            }
         }
     },
     "type": "module"
