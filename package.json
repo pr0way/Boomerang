@@ -1,10 +1,10 @@
 {
-    "name": "ghost-starter-theme",
-    "description": "A starter theme for Ghost theme development",
-    "demo": "https://starter.ghost.io",
+    "name": "boomerang",
+    "description": "Exclusive and modern theme for Ghost blogging system.",
+    "demo": "https://demo.pocztowski.it/boomerang",
     "version": "1.0.0",
     "engines": {
-        "ghost": ">=5.0.0"
+        "ghost": ">=6.0.0"
     },
     "license": "MIT",
     "screenshots": {
@@ -18,14 +18,14 @@
         "pretest": "npm run build"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Tomasz Poctowski",
+        "email": "17937613+pr0way@users.noreply.github.com",
+        "url": "https://pocztowski.it"
     },
     "gpm": {
         "type": "theme",
         "categories": [
-            "Minimal",
+            "Blog",
             "Magazine"
         ]
     },
@@ -36,10 +36,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/TryGhost/Starter.git"
+        "url": "https://github.com/pr0way/Boomerang.git"
     },
-    "bugs": "https://github.com/TryGhost/Starter/issues",
-    "contributors": "https://github.com/TryGhost/Starter/graphs/contributors",
+    "bugs": "https://github.com/pr0way/Boomerang/issues",
+    "contributors": "https://github.com/pr0way/Boomerang/graphs/contributors",
     "devDependencies": {
         "@babel/core": "^7.21.0",
         "@babel/preset-env": "^7.20.2",
